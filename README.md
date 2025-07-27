@@ -1,8 +1,8 @@
 **PROGRAM 6A:**
 
-**Aim: To Print Even Values between 0 and 10.** 
+**Aim:**  To Print Even Values between 0 and 10.
 
-**Tool: VS CODE.**
+**Tool:**  VS CODE.
 
 **Theory:**
 This program illustrates basic control structures in C++:
