@@ -304,11 +304,11 @@ Inner Loop (Stars)
 Output Structure
 - Each row contains a number of stars equal to its row index.
 - The triangle grows downward and to the right:
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
+ * 
+ * * 
+ * * * 
+ * * * * 
+ * * * * * 
 
 **Conclusion & Learning Outcomes:**
 This program demonstrates:
