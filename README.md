@@ -1,2 +1,2 @@
 **PROGRAM 6A:**
-__PROGRAM 6A:__
+**AIM:** 
