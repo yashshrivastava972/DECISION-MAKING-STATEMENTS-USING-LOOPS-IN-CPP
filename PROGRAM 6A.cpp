@@ -1,3 +1,10 @@
+// NAME: YASH SHRIVASTAVA
+// PRN: 24070123137
+// BATCH: E&TC-B2
+// TITLE: CHECK WHETHER NUMBER IS EVEN OR ODD (EXPERIMENT: 5A)
+
+
+// CODE: 
 #include <iostream>
 using namespace std;
 int main() {
