@@ -303,12 +303,7 @@ Inner Loop (Stars)
 
 Output Structure
 - Each row contains a number of stars equal to its row index.
-- The triangle grows downward and to the right:
- * 
- * * 
- * * * 
- * * * * 
- * * * * * 
+- The triangle grows downward and to the right.
 
 **Conclusion & Learning Outcomes:**
 This program demonstrates:
@@ -344,14 +339,6 @@ for (j = 1; j <= i; j++)
 
 - Prints i stars in the current row.
 
-Output Visualization
-The result looks like:
-        * 
-      * * 
-    * * * 
-  * * * * 
-* * * * * 
-
 **Algorithm:** Left-Aligned Star Pyramid:
 Input
 - Define an integer n = 5 → number of pyramid rows (can be user-defined too).
@@ -370,12 +357,7 @@ For each row i from 1 to n:
 
 Output Breakdown
 Each row looks like this: | Row | Spaces | Stars | |-----|--------|-------| | 1   | 4      | 1     | | 2   | 3      | 2     | | 3   | 2      | 3     | | 4   | 1      | 4     | | 5   | 0      | 5     |
-So the output forms a symmetric, left-aligned pyramid like:
-        * 
-      * * 
-    * * * 
-  * * * * 
-* * * * * 
+So the output forms a symmetric, left-aligned pyramid.
 
 **Conclusion:**
 This snippet teaches:
@@ -548,25 +530,13 @@ for (int i = 0; i < n; i++)
 - Prints decreasing rows of stars starting from maximum width.
 - Space increases from left to right (j < i)
 - Star count decreases using formula: 2*(n-i) - 1
-Example (n = 5):
-*********
- *******
-  *****
-   ***
-    *
-
+- 
 2. Bottom Half (Normal Pyramid)
 for (int i = 1; i <= n; i++)
 
 - Builds increasing rows of stars.
 - Space decreases as rows grow (j < n - i)
 - Stars increase via formula: 2*i - 1
-Output continues:
-    *
-   ***
-  *****
- *******
-*********
 
 Together, they form an hourglass or diamond-like shape with a narrow middle and equal halves mirrored vertically.
 
